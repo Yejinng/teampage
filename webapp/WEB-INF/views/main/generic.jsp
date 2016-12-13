@@ -1,7 +1,3 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt"%>
-<%@ taglib uri="http://java.sun.com/jsp/jstl/functions" prefix="fn"%>
-<%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
 <!DOCTYPE HTML>
 <!--
 	Forty by HTML5 UP
@@ -10,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>ROTFL SOLUTION</title>
+		<title>Generic - Forty by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -24,20 +20,20 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.jsp" class="logo"><strong>ROTFL</strong> <span>by Bit Academy</span></a>
+					<header id="header">
+						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
 						<nav>
-							<a href="#menu">메뉴</a>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.jsp">메인 페이지</a></li>
-							<li><a href="landing.jsp">각자의 이야기</a></li>
-							<li><a href="generic.jsp">모두의 이야기</a></li>
-							<li><a href="elements.jsp">포트폴리오</a></li>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
 						</ul>
 						<ul class="actions vertical">
 							<li><a href="#" class="button special fit">Get Started</a></li>
@@ -45,93 +41,19 @@
 						</ul>
 					</nav>
 
-				<!-- Banner -->
-					<section id="banner" class="major">
-						<div class="inner">
-							<header class="major">
-								<h1>ROTFL</h1>
-							</header>
-							<div class="content">
-								<p>즐거움을 추구하는 의미에서 만든 어플리케이션<br />
-								GotCha를 제작을 시작햇지롱</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">ROTFL STORYboard</a></li>
-								</ul>
-							</div>
-						</div>
-					</section>
-
 				<!-- Main -->
-					<div id="main">
+					<div id="main" class="alt">
 
 						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/hokyoung.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/hokyung" class="link">이호경</a></h3>
-										<p>DA 꿈나무</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/jinwon.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/jinwon" class="link">김진원</a></h3>
-										<p>개발리셔 희망자</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/gahyun.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/gahyun" class="link">김가현</a></h3>
-										<p>키보드워리어 </p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/yejin.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/yejin" class="link">박예진</a></h3>
-										<p>소녀감성충만</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Consequat</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Etiam</a></h3>
-										<p>Feugiat amet tempus</p>
-									</header>
-								</article>
-							</section>
-
-						<!-- Two -->
-							<section id="two">
+							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h2>Massa libero</h2>
+										<h1>Generic</h1>
 									</header>
-									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
-									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
-									</ul>
+									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
+									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
+									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
+									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
 								</div>
 							</section>
 
@@ -199,7 +121,7 @@
 								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; ROTFL </li>
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>

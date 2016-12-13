@@ -10,7 +10,7 @@
 -->
 <html>
 	<head>
-		<title>ROTFL SOLUTION</title>
+		<title>Lee Ho Kyoung</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
@@ -24,17 +24,18 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header" class="alt">
-						<a href="index.jsp" class="logo"><strong>ROTFL</strong> <span>by Bit Academy</span></a>
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.jsp" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
 						<nav>
-							<a href="#menu">메뉴</a>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.jsp">메인 페이지</a></li>
+						<li><a href="index.jsp">메인 페이지</a></li>
 							<li><a href="landing.jsp">각자의 이야기</a></li>
 							<li><a href="generic.jsp">모두의 이야기</a></li>
 							<li><a href="elements.jsp">포트폴리오</a></li>
@@ -46,17 +47,18 @@
 					</nav>
 
 				<!-- Banner -->
-					<section id="banner" class="major">
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
 						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
 							<header class="major">
-								<h1>ROTFL</h1>
+								<h1>박예진</h1>
 							</header>
 							<div class="content">
-								<p>즐거움을 추구하는 의미에서 만든 어플리케이션<br />
-								GotCha를 제작을 시작햇지롱</p>
-								<ul class="actions">
-									<li><a href="#one" class="button next scrolly">ROTFL STORYboard</a></li>
-								</ul>
+								<p>Lorem ipsum dolor sit amet nullam consequat<br />
+								sed veroeros. tempus adipiscing nulla.</p>
 							</div>
 						</div>
 					</section>
@@ -65,72 +67,76 @@
 					<div id="main">
 
 						<!-- One -->
-							<section id="one" class="tiles">
-								<article>
-									<span class="image">
-										<img src="images/hokyoung.jpg" alt="" />
-									</span>
+							<section id="one">
+								<div class="inner">
 									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/hokyung" class="link">이호경</a></h3>
-										<p>DA 꿈나무</p>
+										<h2>Sed amet aliquam</h2>
 									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/jinwon.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/jinwon" class="link">김진원</a></h3>
-										<p>개발리셔 희망자</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/gahyun.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/gahyun" class="link">김가현</a></h3>
-										<p>키보드워리어 </p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/yejin.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="${pageContext.request.contextPath }/yejin" class="link">박예진</a></h3>
-										<p>소녀감성충만</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic05.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Consequat</a></h3>
-										<p>Ipsum dolor sit amet</p>
-									</header>
-								</article>
-								<article>
-									<span class="image">
-										<img src="images/pic06.jpg" alt="" />
-									</span>
-									<header class="major">
-										<h3><a href="landing.html" class="link">Etiam</a></h3>
-										<p>Feugiat amet tempus</p>
-									</header>
-								</article>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna.</p>
+								</div>
 							</section>
 
 						<!-- Two -->
-							<section id="two">
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic08.jpg" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Orci maecenas</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic09.jpg" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Rhoncus magna</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a href="generic.html" class="image">
+										<img src="images/pic10.jpg" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Sed nunc ligula</h3>
+											</header>
+											<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.</p>
+											<ul class="actions">
+												<li><a href="generic.html" class="button">Learn more</a></li>
+											</ul>
+										</div>
+									</div>
+								</section>
+							</section>
+
+						<!-- Three -->
+							<section id="three">
 								<div class="inner">
 									<header class="major">
 										<h2>Massa libero</h2>
 									</header>
 									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
 									<ul class="actions">
-										<li><a href="landing.html" class="button next">Get Started</a></li>
+										<li><a href="generic.html" class="button next">Get Started</a></li>
 									</ul>
 								</div>
 							</section>
@@ -199,7 +205,7 @@
 								<li><a href="#" class="icon alt fa-linkedin"><span class="label">LinkedIn</span></a></li>
 							</ul>
 							<ul class="copyright">
-								<li>&copy; ROTFL </li>
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
 							</ul>
 						</div>
 					</footer>
