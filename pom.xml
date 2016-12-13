@@ -11,13 +11,9 @@
 		<jcloverslf4j.version>1.7.6</jcloverslf4j.version>
 		<logback.version>1.1.1</logback.version>
 
-
-	</properties>
-	<!-- library 설정(Dependency 설정 -->
-	<dependencies>
-
-
-
+		</properties>
+		<!-- library 설정(Dependency 설정 -->
+		<dependencies>
 
 		<!-- spring core -->
 		<dependency>
