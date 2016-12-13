@@ -35,13 +35,14 @@
 				<!-- Menu -->
 					<nav id="menu">
 						<ul class="links">
-							<li><a href="index.jsp">메인 페이지</a></li>
-							<li><a href="landing.jsp">각자의 이야기</a></li>
-							<li><a href="generic.jsp">모두의 이야기</a></li>
-							<li><a href="elements.jsp">포트폴리오</a></li>
+							<li><a href="${pageContext.request.contextPath }">메인 페이지</a></li>
+							<li><a href="${pageContext.request.contextPath }/member">ROTFL</a></li>
+							<li><a href="${pageContext.request.contextPath }/projectInto">공동 프로젝트 소개</a></li>
+							<li><a href="${pageContext.request.contextPath }/elements.jsp">포트폴리오</a></li>
+							<li><a href="${pageContext.request.contextPath }/user">게시판</a></li>
 						</ul>
 						<ul class="actions vertical">
-							<li><a href="#" class="button special fit">Get Started</a></li>
+							<li><a href="#" class="button special fit">SEND MESSAGE</a></li>
 							<li><a href="#" class="button fit">Log In</a></li>
 						</ul>
 					</nav>
